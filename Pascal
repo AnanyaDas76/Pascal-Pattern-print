@@ -1,0 +1,7 @@
+ PASCAL'S TRIANGLE #
+
+for line in range(0,4):
+    value = 1
+    for colm in range(0,line+1):
+        print(value, end= " ")
+        value = int(value*(line-colm)/(colm+1))
